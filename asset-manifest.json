@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/franz-sacher-bakery/static/css/main.7d53e56d.css",
+    "main.js": "/franz-sacher-bakery/static/js/main.ddeadb0b.js",
+    "static/js/310.03780470.chunk.js": "/franz-sacher-bakery/static/js/310.03780470.chunk.js",
+    "static/js/17.c1feec9d.chunk.js": "/franz-sacher-bakery/static/js/17.c1feec9d.chunk.js",
+    "static/js/978.b029beaa.chunk.js": "/franz-sacher-bakery/static/js/978.b029beaa.chunk.js",
+    "static/js/762.15e5b532.chunk.js": "/franz-sacher-bakery/static/js/762.15e5b532.chunk.js",
+    "static/js/439.571cd7c9.chunk.js": "/franz-sacher-bakery/static/js/439.571cd7c9.chunk.js",
+    "static/js/396.25fad796.chunk.js": "/franz-sacher-bakery/static/js/396.25fad796.chunk.js",
+    "static/js/128.728106fc.chunk.js": "/franz-sacher-bakery/static/js/128.728106fc.chunk.js",
+    "index.html": "/franz-sacher-bakery/index.html",
+    "main.7d53e56d.css.map": "/franz-sacher-bakery/static/css/main.7d53e56d.css.map",
+    "main.ddeadb0b.js.map": "/franz-sacher-bakery/static/js/main.ddeadb0b.js.map",
+    "310.03780470.chunk.js.map": "/franz-sacher-bakery/static/js/310.03780470.chunk.js.map",
+    "17.c1feec9d.chunk.js.map": "/franz-sacher-bakery/static/js/17.c1feec9d.chunk.js.map",
+    "978.b029beaa.chunk.js.map": "/franz-sacher-bakery/static/js/978.b029beaa.chunk.js.map",
+    "762.15e5b532.chunk.js.map": "/franz-sacher-bakery/static/js/762.15e5b532.chunk.js.map",
+    "439.571cd7c9.chunk.js.map": "/franz-sacher-bakery/static/js/439.571cd7c9.chunk.js.map",
+    "396.25fad796.chunk.js.map": "/franz-sacher-bakery/static/js/396.25fad796.chunk.js.map",
+    "128.728106fc.chunk.js.map": "/franz-sacher-bakery/static/js/128.728106fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d53e56d.css",
+    "static/js/main.ddeadb0b.js"
+  ]
+}
