@@ -1,10 +1,13 @@
-import './js/create-markup';
-import './js/firebase';
-import './js/film-card-modal';
-import './js/pagination';
-import './js/footer-modal.js';
-import './js/get-trending';
-import './js/search';
-import './js/spinner';
-import './js/scroll-up';
-import './js/theme';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from 'components/App';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter basename="/franz-sacher-bakery">
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
