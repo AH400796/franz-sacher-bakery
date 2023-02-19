@@ -28,7 +28,7 @@ export const AboutListItem = styled.li`
 export const ItemWrappper = styled.div`
   display: block;
   border: 1px dotted #453432;
-  border-radius: 10px;
+  border-radius: 2px;
   background-color: #fffdd0;
 
   object-fit: cover;
@@ -71,7 +71,7 @@ export const AboutText = styled.p`
 export const AboutImage = styled.img`
   display: block;
   /* min-width: 250px; */
-  border-radius: 10px;
+  border-radius: 2px;
   border: 1px dotted #453432;
 
   @media screen and (min-width: 768px) {

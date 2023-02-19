@@ -1,20 +1,19 @@
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { fadeImages } from 'services/slider-images';
-import { Image } from './Slider.styled';
+import { SliderImage, StyledFade, SliderTitle } from './Slider.styled';
 
 export default function Slider() {
   return (
     <div className="slide-container">
-      <Fade>
+      <StyledFade>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
-            <Image src={fadeImage.url} />
-            <h2>{fadeImage.caption}</h2>
+            <SliderImage src={fadeImage.url} />
+            <SliderTitle>{fadeImage.caption}</SliderTitle>
           </div>
         ))}
-      </Fade>
+      </StyledFade>
     </div>
   );
 }
