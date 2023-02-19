@@ -29,5 +29,5 @@ export const ContactsListItem = styled.li`
   padding-left: 10px;
   background-color: #feffe1;
   box-shadow: 3px 3px 9px 5px #453432;
-  border-radius: 20px;
+  border-radius: 10px;
 `;

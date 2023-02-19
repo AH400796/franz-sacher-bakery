@@ -13,23 +13,18 @@ import cokies from '../../image/cokies.jpg';
 export default function AboutUs() {
   return (
     <>
-      <AboutTitle>Наша місія</AboutTitle>
+      <AboutTitle>Щось про нас...</AboutTitle>
       <AboutList>
         <AboutListItem>
           <ItemWrappper>
             <AboutText>
-              Шановні гості, ми вітаємо вас на сайті нашої
-              кондитерської-пекарні! Наша команда вже протягом багатьох років
-              працює для того, щоб надати вам найсмачніші і найякісніші десерти
-              та хлібобулочні вироби. Ми поєднуємо унікальні рецепти зі свіжими
-              інгредієнтами, щоб забезпечити вам тільки найкращі продукти. Наша
-              команда зробить все можливе, щоб ваше перебування в нашій
-              кондитерсько-пекарні було приємним та задовольним. На нашому сайті
-              ви зможете ознайомитися з нашою історією, нашою філософією та
-              останніми новинами нашої компанії. Ми запрошуємо вас дізнатися
-              більше про нас та наші продукти. Дякуємо, що відвідали наш сайт і
-              ми сподіваємося зустріти вас в нашій кондитерсько-пекарні
-              незабаром.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              facilis nobis accusamus quisquam adipisci, inventore
+              exercitationem molestias perferendis nam voluptatum sint quis
+              perspiciatis, a alias doloribus nulla odit veniam, maxime tenetur
+              nisi commodi accusantium totam! Sunt mollitia iure, consectetur
+              dolorem, modi odio, eum quisquam accusamus saepe sint ratione
+              beatae illo.
             </AboutText>
           </ItemWrappper>
           <ItemWrappper>
@@ -40,18 +35,19 @@ export default function AboutUs() {
         <AboutListItem>
           <ItemWrappper>
             <AboutText>
-              Шановні гості, ми вітаємо вас на сайті нашої
-              кондитерської-пекарні! Наша команда вже протягом багатьох років
-              працює для того, щоб надати вам найсмачніші і найякісніші десерти
-              та хлібобулочні вироби. Ми поєднуємо унікальні рецепти зі свіжими
-              інгредієнтами, щоб забезпечити вам тільки найкращі продукти. Наша
-              команда зробить все можливе, щоб ваше перебування в нашій
-              кондитерсько-пекарні було приємним та задовольним. На нашому сайті
-              ви зможете ознайомитися з нашою історією, нашою філософією та
-              останніми новинами нашої компанії. Ми запрошуємо вас дізнатися
-              більше про нас та наші продукти. Дякуємо, що відвідали наш сайт і
-              ми сподіваємося зустріти вас в нашій кондитерсько-пекарні
-              незабаром.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              facilis nobis accusamus quisquam adipisci, inventore
+              exercitationem molestias perferendis nam voluptatum sint quis
+              perspiciatis, a alias doloribus nulla odit veniam, maxime tenetur
+              nisi commodi accusantium totam! Sunt mollitia iure, consectetur
+              dolorem, modi odio, eum quisquam accusamus saepe sint ratione
+              beatae illo. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Fugit facilis nobis accusamus quisquam adipisci, inventore
+              exercitationem molestias perferendis nam voluptatum sint quis
+              perspiciatis, a alias doloribus nulla odit veniam, maxime tenetur
+              nisi commodi accusantium totam! Sunt mollitia iure, consectetur
+              dolorem, modi odio, eum quisquam accusamus saepe sint ratione
+              beatae illo.
             </AboutText>
           </ItemWrappper>
           <ItemWrappper>
@@ -62,18 +58,13 @@ export default function AboutUs() {
         <AboutListItem>
           <ItemWrappper>
             <AboutText>
-              Шановні гості, ми вітаємо вас на сайті нашої
-              кондитерської-пекарні! Наша команда вже протягом багатьох років
-              працює для того, щоб надати вам найсмачніші і найякісніші десерти
-              та хлібобулочні вироби. Ми поєднуємо унікальні рецепти зі свіжими
-              інгредієнтами, щоб забезпечити вам тільки найкращі продукти. Наша
-              команда зробить все можливе, щоб ваше перебування в нашій
-              кондитерсько-пекарні було приємним та задовольним. На нашому сайті
-              ви зможете ознайомитися з нашою історією, нашою філософією та
-              останніми новинами нашої компанії. Ми запрошуємо вас дізнатися
-              більше про нас та наші продукти. Дякуємо, що відвідали наш сайт і
-              ми сподіваємося зустріти вас в нашій кондитерсько-пекарні
-              незабаром.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              facilis nobis accusamus quisquam adipisci, inventore
+              exercitationem molestias perferendis nam voluptatum sint quis
+              perspiciatis, a alias doloribus nulla odit veniam, maxime tenetur
+              nisi commodi accusantium totam! Sunt mollitia iure, consectetur
+              dolorem, modi odio, eum quisquam accusamus saepe sint ratione
+              beatae illo.
             </AboutText>
           </ItemWrappper>
           <ItemWrappper>

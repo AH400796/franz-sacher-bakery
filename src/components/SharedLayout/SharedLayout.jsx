@@ -5,11 +5,11 @@ import Footer from 'components/Footer';
 import HeaderSection from 'components/HeaderSection';
 import Container from 'components/Container';
 
-export default function SharedLayout() {
+export default function SharedLayout({ screenWidth }) {
   return (
     <Wrapper>
       <AppContent>
-        <HeaderSection />
+        <HeaderSection screenWidth={screenWidth} />
         <Main>
           <Container>
             <Suspense fallback={<div>Loading page...</div>}>

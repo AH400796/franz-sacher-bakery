@@ -5,7 +5,7 @@ import { ContactsList, ContactsListItem } from './Contacts.styled';
 import Modal from 'components/Modal';
 import GoogleMap from 'components/GoogleMap';
 
-export default function Contacts() {
+export default function Contacts({ screenWidth }) {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -16,7 +16,7 @@ export default function Contacts() {
     <>
       {showModal && (
         <Modal onClose={toggleModal}>
-          <GoogleMap />
+          <GoogleMap screenWidth={screenWidth} />
         </Modal>
       )}
       <ContactsList>

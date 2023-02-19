@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
-  /* align-items: center;*/
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   padding: 20px;
 
@@ -14,10 +15,12 @@ export const Wrapper = styled.div`
 `;
 
 export const SliderWrapper = styled.div`
-  max-width: 450px;
+  width: ${props => {
+    return `${props.sliderWidth}px`;
+  }};
   display: block;
-  border-radius: 10px;
-  @media screen and (max-width: 399px) {
+
+  /* @media screen and (max-width: 399px) {
     max-width: 250px;
   }
 
@@ -27,8 +30,5 @@ export const SliderWrapper = styled.div`
 
   @media screen and (min-width: 768px) {
     max-width: 650px;
-  }
-  /* @media screen and (min-width: 1280px) {
-    max-width: 750px;
   } */
 `;

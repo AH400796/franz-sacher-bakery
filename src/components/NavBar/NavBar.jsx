@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
   StyledLink,
   NavWrapper,
@@ -10,19 +9,7 @@ import Logo from 'components/Logo';
 import BurgerMenu from 'components/BurgerMenu';
 import Navigation from 'components/Navigation';
 
-export default function NavBar() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
+export default function NavBar({ screenWidth }) {
   return (
     <NavWrapper>
       <StyledLink to="/">
@@ -33,7 +20,7 @@ export default function NavBar() {
         <TitleName>Франц Захер</TitleName>
       </TitleWrapper>
       {screenWidth < 768 && <BurgerMenu />}
-      {screenWidth > 768 && <Navigation />}
+      {screenWidth > 767 && <Navigation />}
     </NavWrapper>
   );
 }
