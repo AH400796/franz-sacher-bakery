@@ -9,7 +9,7 @@ export const fadeImages = [
   },
   {
     url: require('../image/slider-image/3.png'),
-    caption: 'Franz Sacher',
+    caption: 'Sacher Franz ',
   },
   {
     url: require('../image/slider-image/4.png'),
@@ -18,5 +18,16 @@ export const fadeImages = [
   {
     url: require('../image/slider-image/5.png'),
     caption: 'Franz Sacher',
+  },
+];
+
+export const data = [
+  { id: '1', src: require('../image/slider-image/1.png') },
+  { id: '1', src: require('../image/slider-image/2.png') },
+  { id: '1', src: require('../image/slider-image/3.png') },
+  { id: '1', src: require('../image/slider-image/4.png') },
+  {
+    id: '1',
+    src: require('../image/slider-image/5.png'),
   },
 ];

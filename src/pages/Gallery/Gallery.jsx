@@ -1,20 +1,23 @@
 import { SliderWrapper } from './Gallery.styled';
 import Slider from 'components/Slider';
+import SwSlider from 'components/SwiftSlider';
 import { Wrapper } from './Gallery.styled';
 
 export default function Gallery({ screenWidth }) {
   let sliderWidth = null;
   if (screenWidth < 768) {
     sliderWidth = screenWidth * 0.8;
-  } else if (screenWidth < 1280) {
-    sliderWidth = screenWidth * 0.7;
   } else {
-    sliderWidth = screenWidth * 0.6;
+    sliderWidth = screenWidth * 0.7;
   }
+  // else {
+  //   sliderWidth = screenWidth * 0.6;
+  // }
   return (
     <Wrapper>
       <SliderWrapper sliderWidth={sliderWidth}>
-        <Slider />
+        {/* <Slider /> */}
+        <SwSlider />
       </SliderWrapper>
       <h3>Перелік нашої продукції... бла-бла-бла...</h3>
       <p>
