@@ -3,14 +3,14 @@ import { Iframe, Title } from './GoogleMap.styled';
 export default function GoogleMap({ screenWidth }) {
   let width = null;
   if (screenWidth < 767) {
-    width = screenWidth / 1.05;
+    width = screenWidth / 1.25;
   } else if (screenWidth < 1279) {
-    width = screenWidth / 1.3;
+    width = 700;
   } else {
     width = 900;
   }
 
-  const height = width / 1.33;
+  const height = width / 1.7;
   return (
     <>
       <Title>" Франц Захер "</Title>
