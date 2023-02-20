@@ -1,7 +1,15 @@
 import { Iframe, Title } from './GoogleMap.styled';
 
 export default function GoogleMap({ screenWidth }) {
-  const width = screenWidth / 1.3;
+  let width = null;
+  if (screenWidth < 767) {
+    width = screenWidth / 1.05;
+  } else if (screenWidth < 1279) {
+    width = screenWidth / 1.3;
+  } else {
+    width = 900;
+  }
+
   const height = width / 1.33;
   return (
     <>
