@@ -1,5 +1,5 @@
 import { SliderWrapper } from './Gallery.styled';
-import Slider from 'components/Slider';
+// import Slider from 'components/Slider';
 import SwSlider from 'components/SwiftSlider';
 import { Wrapper } from './Gallery.styled';
 
