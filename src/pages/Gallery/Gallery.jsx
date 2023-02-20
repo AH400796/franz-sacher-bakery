@@ -1,6 +1,5 @@
 import { SliderWrapper } from './Gallery.styled';
-// import Slider from 'components/Slider';
-import SwSlider from 'components/SwiftSlider';
+import Slider from 'components/Slider';
 import { Wrapper } from './Gallery.styled';
 
 export default function Gallery({ screenWidth }) {
@@ -10,14 +9,11 @@ export default function Gallery({ screenWidth }) {
   } else {
     sliderWidth = screenWidth * 0.7;
   }
-  // else {
-  //   sliderWidth = screenWidth * 0.6;
-  // }
+
   return (
     <Wrapper>
       <SliderWrapper sliderWidth={sliderWidth}>
-        {/* <Slider /> */}
-        <SwSlider />
+        <Slider />
       </SliderWrapper>
       <h3>Перелік нашої продукції... бла-бла-бла...</h3>
       <p>
