@@ -28,10 +28,6 @@ export default function App() {
           path="contacts"
           element={<Contacts screenWidth={screenWidth} />}
         />
-        {/* <Route path="movies/:movieId" element={<MovieDetails />}>
-          <Route path="cast" element={<Cast />} />
-          <Route path="reviews" element={<Reviews />} />
-        </Route> */}
         <Route path="*" element={<About />} />
       </Route>
     </Routes>

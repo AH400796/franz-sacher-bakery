@@ -6,9 +6,9 @@ import {
   AboutListItem,
   ItemWrappper,
 } from './AboutUs.styled';
-import bakery from '../../image/bakery.jpg';
-import refreg from '../../image/refregerator.jpg';
-import cokies from '../../image/cokies.jpg';
+import bakery from '../../images/bakery.webp';
+import refreg from '../../images/refregerator.webp';
+import cokies from '../../images/cokies.webp';
 
 export default function AboutUs() {
   return (

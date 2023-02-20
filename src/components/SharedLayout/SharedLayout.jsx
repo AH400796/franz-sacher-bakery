@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import Footer from 'components/Footer';
 import HeaderSection from 'components/HeaderSection';
 import Container from 'components/Container';
+import Skeleton from 'components/Skeleton';
 
 export default function SharedLayout({ screenWidth }) {
   return (
@@ -12,7 +13,7 @@ export default function SharedLayout({ screenWidth }) {
         <HeaderSection screenWidth={screenWidth} />
         <Main>
           <Container>
-            <Suspense fallback={<div>Loading page...</div>}>
+            <Suspense fallback={<Skeleton screenWidth={screenWidth} />}>
               <Outlet />
             </Suspense>
           </Container>

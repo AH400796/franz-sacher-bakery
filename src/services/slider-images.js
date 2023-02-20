@@ -1,33 +1,22 @@
 export const fadeImages = [
   {
-    url: require('../image/slider-image/1.png'),
+    url: require('../images/slider-image/1.webp'),
     caption: 'Franz Sacher',
   },
   {
-    url: require('../image/slider-image/2.png'),
+    url: require('../images/slider-image/2.webp'),
     caption: 'Franz Sacher',
   },
   {
-    url: require('../image/slider-image/3.png'),
+    url: require('../images/slider-image/3.webp'),
     caption: 'Sacher Franz ',
   },
   {
-    url: require('../image/slider-image/4.png'),
+    url: require('../images/slider-image/4.webp'),
     caption: 'Franz Sacher',
   },
   {
-    url: require('../image/slider-image/5.png'),
+    url: require('../images/slider-image/5.webp'),
     caption: 'Franz Sacher',
-  },
-];
-
-export const data = [
-  { id: '1', src: require('../image/slider-image/1.png') },
-  { id: '1', src: require('../image/slider-image/2.png') },
-  { id: '1', src: require('../image/slider-image/3.png') },
-  { id: '1', src: require('../image/slider-image/4.png') },
-  {
-    id: '1',
-    src: require('../image/slider-image/5.png'),
   },
 ];

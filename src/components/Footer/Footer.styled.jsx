@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ornament from '../../image/ornament.png';
+import ornament from '../../images/ornament.png';
 
 export const StyledFooter = styled.footer`
   padding-top: 30px;

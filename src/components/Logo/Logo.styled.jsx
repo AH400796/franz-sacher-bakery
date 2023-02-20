@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const LogoWrapper = styled.div`
+  min-width: 70px;
+  min-height: 70px;
   background-color: #fffdd0;
   border-radius: 50%;
   padding-top: 5px;
