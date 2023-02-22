@@ -35,13 +35,13 @@ export default function Skeleton({ screenWidth }) {
         <rect x="20" y="425" rx="3" ry="3" width={longtRowWith} height="10" />
         <rect x="20" y="465" rx="3" ry="3" width={longtRowWith} height="10" />
         <rect x="20" y="505" rx="3" ry="3" width={longtRowWith} height="10" />
-        <rect x="215" y="565" rx="3" ry="3" width={shortRowWith} height="10" />
+        {/* <rect x="215" y="565" rx="3" ry="3" width={shortRowWith} height="10" />
         <circle cx="120" cy="608" r="41" />
         <rect x="215" y="605" rx="3" ry="3" width={shortRowWith} height="10" />
-        <rect x="215" y="645" rx="3" ry="3" width={shortRowWith} height="10" />
-        <rect x="20" y="685" rx="3" ry="3" width={longtRowWith} height="10" />
+        <rect x="215" y="645" rx="3" ry="3" width={shortRowWith} height="10" /> */}
+        {/* <rect x="20" y="685" rx="3" ry="3" width={longtRowWith} height="10" />
         <rect x="20" y="725" rx="3" ry="3" width={longtRowWith} height="10" />
-        <rect x="20" y="765" rx="3" ry="3" width={longtRowWith} height="10" />
+        <rect x="20" y="765" rx="3" ry="3" width={longtRowWith} height="10" /> */}
       </ContentLoader>
     </ContLoader>
   );

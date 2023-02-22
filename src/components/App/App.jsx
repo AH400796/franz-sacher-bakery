@@ -4,7 +4,7 @@ import { lazy } from 'react';
 import SharedLayout from 'components/SharedLayout';
 
 const About = lazy(() => import('../../pages/About'));
-const Gallery = lazy(() => import('../../pages/Gallery'));
+const Products = lazy(() => import('../../pages/Products'));
 const Contacts = lazy(() => import('../../pages/Contacts'));
 
 export default function App() {
@@ -23,7 +23,10 @@ export default function App() {
     <Routes>
       <Route path="/" element={<SharedLayout screenWidth={screenWidth} />}>
         <Route index element={<About />} />
-        <Route path="gallery" element={<Gallery screenWidth={screenWidth} />} />
+        <Route
+          path="Products"
+          element={<Products screenWidth={screenWidth} />}
+        />
         <Route
           path="contacts"
           element={<Contacts screenWidth={screenWidth} />}

@@ -1,23 +1,31 @@
 import styled from 'styled-components';
 
 export const LogoWrapper = styled.div`
-  min-width: 70px;
-  min-height: 70px;
   background-color: #fffdd0;
   border-radius: 50%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 12px;
-  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-shadow: 1px 1px 3px 4px #fffdd0;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const LogoImage = styled.img`
-  width: 70px;
+  width: 50px;
   @media screen and (min-width: 768px) {
-    width: 100px;
+    width: 80px;
   }
   @media screen and (min-width: 1280px) {
-    width: 120px;
+    width: 100px;
   }
 `;

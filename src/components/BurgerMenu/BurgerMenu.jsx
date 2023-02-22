@@ -28,7 +28,7 @@ export default function BurgerMenu() {
       <StyledLink to="/" onClick={handleOnClick}>
         Про нас
       </StyledLink>
-      <StyledLink to="/gallery" onClick={handleOnClick}>
+      <StyledLink to="/Products" onClick={handleOnClick}>
         Наша продукція
       </StyledLink>
       <StyledLink to="/contacts" onClick={handleOnClick}>

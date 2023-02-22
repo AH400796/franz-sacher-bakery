@@ -8,12 +8,12 @@ import {
   ProductList,
   ProductListItem,
   ProductText,
-} from './Gallery.styled';
+} from './Products.styled';
 import Slider from 'components/Slider';
 import Modal from 'components/Modal';
-import galleryBtn from '../../images/gallery_btn.png';
+import ProductsBtn from '../../images/gallery_btn.png';
 
-export default function Gallery({ screenWidth }) {
+export default function Products({ screenWidth }) {
   const [showModal, setShowModal] = useState(false);
 
   const toggleModal = () => {
@@ -38,7 +38,7 @@ export default function Gallery({ screenWidth }) {
       )}
       <Button type="button" onClick={toggleModal}>
         <ButtonText>Галерея</ButtonText>
-        <img src={galleryBtn} alt="" width={40} />
+        <img src={ProductsBtn} alt="" width={40} />
       </Button>
       <Title>
         Наша пекарня <br /> пропонує Вам:

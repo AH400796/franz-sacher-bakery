@@ -40,7 +40,7 @@ export const Button = styled.button`
   background-color: #453432;
   box-shadow: 0px 0px 5px 2px #d8a331;
   border: 2px solid #d8a331;
-  border-radius: 20px;
+  border-radius: 5px;
 
   cursor: pointer;
 
