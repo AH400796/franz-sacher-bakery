@@ -55,7 +55,7 @@ export default function Footer() {
           </Wrapper>
         </FooterContacts>
         <FooterText>
-          © 2023, Developted for <b>Franz Sacher bakery, Lviv</b>
+          © 2023, Created for <b>Franz Sacher bakery, Lviv</b>
         </FooterText>
       </Container>
     </StyledFooter>
