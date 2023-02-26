@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const AboutList = styled.ul`
   display: flex;
@@ -7,6 +8,11 @@ export const AboutList = styled.ul`
   align-items: center;
   list-style: none;
   gap: 20px;
+`;
+
+export const AboutLink = styled(Link)`
+  text-decoration: none;
+  color: #db9808;
 `;
 
 export const AboutListItem = styled.li`
@@ -57,27 +63,27 @@ export const AboutTitle = styled.h2`
 `;
 
 export const AboutText = styled.p`
-  /* display: block; */
+  text-indent: 20px;
+  padding-bottom: 5px;
+`;
+
+export const TextWrapper = styled.div`
   padding: 10px;
 
   @media screen and (min-width: 768px) {
-    /* min-width: 338px; */
   }
   @media screen and (min-width: 1280px) {
-    /* min-width: 450px; */
   }
 `;
 
 export const AboutImage = styled.img`
   display: block;
-  /* min-width: 250px; */
+
   border-radius: 2px;
   border: 1px dotted #453432;
 
   @media screen and (min-width: 768px) {
-    /* min-width: 338px; */
   }
   @media screen and (min-width: 1280px) {
-    /* min-width: 450px; */
   }
 `;

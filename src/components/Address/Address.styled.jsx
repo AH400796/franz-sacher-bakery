@@ -49,9 +49,9 @@ export const AddressTitle = styled.h4`
 `;
 
 export const AddressText = styled.p`
-  width: 170px;
-  font-size: 14px;
-  padding: 15px 15px;
+  width: 180px;
+  font-size: 13px;
+  padding: 15px 10px;
   color: #feffe1;
   background-color: #453432;
   border-radius: 0 20px 0 20px;
@@ -65,17 +65,18 @@ export const AddressText = styled.p`
   }
 
   @media screen and (min-width: 768px) {
-    width: 180px;
+    width: 190px;
+    font-size: 14px;
   }
   @media screen and (min-width: 1280px) {
-    width: 190px;
+    width: 210px;
     font-size: 16px;
   }
 `;
 
 export const Button = styled.button`
-  width: 202px;
-  font-size: 14px;
+  width: 180px;
+  font-size: 13px;
   font-weight: 700;
   padding: 15px 15px;
   text-align: left;
@@ -93,10 +94,11 @@ export const Button = styled.button`
   }
 
   @media screen and (min-width: 768px) {
-    width: 212px;
+    width: 190px;
+    font-size: 14px;
   }
   @media screen and (min-width: 1280px) {
-    width: 222px;
+    width: 210px;
     font-size: 16px;
   }
   cursor: pointer;

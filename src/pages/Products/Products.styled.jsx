@@ -6,12 +6,16 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 30px 20px 20px 30px;
+  padding: 30px 20px 20px 20px;
 
   background-color: #feffe1;
   box-shadow: 3px 3px 9px 5px #453432;
   border-radius: 2px;
   height: 100%;
+
+  /* @media screen and (min-width: 480px) {
+    padding-left: 30px;
+  } */
 `;
 
 export const SliderWrapper = styled.div`
@@ -44,7 +48,7 @@ export const Button = styled.button`
 
   cursor: pointer;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
     right: 20px;
     top: 20px;
     width: 160px;
@@ -58,7 +62,11 @@ export const ButtonText = styled.span`
   font-size: 20px;
   color: #feffe1;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 480px) {
     font-size: 32px;
   }
 `;
@@ -68,10 +76,10 @@ export const Title = styled.h3`
   text-align: left;
   margin-bottom: 20px;
   font-family: 'Marck Script', cursive;
-  font-size: 18px;
+  font-size: 22px;
   color: #453432;
-  @media screen and (min-width: 768px) {
-    font-size: 24px;
+  @media screen and (min-width: 480px) {
+    font-size: 26px;
   }
 `;
 
@@ -91,7 +99,7 @@ export const ProductList = styled.ul`
 export const ProductListItem = styled.li``;
 
 export const ProductText = styled.p`
-  font-size: 14px;
+  font-size: 16px;
 
   @media screen and (min-width: 768px) {
     font-size: 16px;

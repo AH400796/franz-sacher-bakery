@@ -9,6 +9,7 @@ export const StyledContainer = styled.div`
 
   @media screen and (min-width: 480px) {
     width: 480px;
+    padding: 0 16px;
   }
   @media screen and (min-width: 768px) {
     width: 768px;

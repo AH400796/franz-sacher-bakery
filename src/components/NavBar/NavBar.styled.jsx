@@ -5,7 +5,7 @@ export const NavWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   color: #fffacd;
 `;
 
@@ -29,7 +29,11 @@ export const Title = styled.span`
   display: block;
   text-align: center;
   font-family: 'Marck Script', cursive;
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 0.9;
+  @media screen and (max-width: 450px) {
+    width: 150px;
+  }
 
   @media screen and (min-width: 768px) {
     font-size: 28px;
@@ -40,7 +44,10 @@ export const Title = styled.span`
 `;
 export const TitleName = styled.h1`
   font-family: 'Marck Script', cursive;
-  font-size: 24px;
+  font-size: 26px;
+  @media screen and (min-width: 480px) {
+    font-size: 36px;
+  }
   @media screen and (min-width: 768px) {
     font-size: 48px;
   }

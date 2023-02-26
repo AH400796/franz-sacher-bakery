@@ -52,8 +52,8 @@ export const NetworksTitle = styled.h4`
 `;
 
 export const Text = styled.p`
-  width: 170px;
-  font-size: 14px;
+  width: 180px;
+  font-size: 13px;
   padding: 15px 15px;
   color: #feffe1;
   background-color: #453432;
@@ -68,10 +68,11 @@ export const Text = styled.p`
   }
 
   @media screen and (min-width: 768px) {
-    width: 180px;
+    width: 190px;
+    font-size: 14px;
   }
   @media screen and (min-width: 1280px) {
-    width: 190px;
+    width: 210px;
     font-size: 16px;
   }
 `;
