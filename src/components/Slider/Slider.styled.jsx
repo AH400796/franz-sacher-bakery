@@ -4,6 +4,7 @@ import { Fade } from 'react-slideshow-image';
 export const SliderImage = styled.img`
   width: 100%;
   border-radius: 2px;
+  border: 1px dotted #453432;
 `;
 
 export const StyledFade = styled(Fade)`

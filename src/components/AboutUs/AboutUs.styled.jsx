@@ -33,17 +33,30 @@ export const AboutListItem = styled.li`
 
 export const ItemWrappper = styled.div`
   display: block;
-  border: 1px dotted #453432;
+
   border-radius: 2px;
   background-color: #fffdd0;
+  border: 1px dotted #453432;
 
-  object-fit: cover;
+  object-fit: contain;
 
   @media screen and (min-width: 480px) {
     flex-basis: calc(100% - 300px);
   }
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 20px) / 2);
+  }
+`;
+
+export const AboutImage = styled.img`
+  display: block;
+  object-fit: contain;
+
+  border-radius: 2px;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
   }
 `;
 
@@ -69,18 +82,6 @@ export const AboutText = styled.p`
 
 export const TextWrapper = styled.div`
   padding: 10px;
-
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1280px) {
-  }
-`;
-
-export const AboutImage = styled.img`
-  display: block;
-
-  border-radius: 2px;
-  border: 1px dotted #453432;
 
   @media screen and (min-width: 768px) {
   }
