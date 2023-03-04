@@ -1,26 +1,28 @@
 import styled from 'styled-components';
-import markerCake from '../../images/cake.svg';
-import markerStrudel from '../../images/strudel.svg';
-import markerCookies from '../../images/cookies.svg';
-import markerCheesecake from '../../images/cheesecake.svg';
-import markerDessert from '../../images/dessert.svg';
-import markerBread from '../../images/bread.svg';
-import markerCroissant from '../../images/croissant.svg';
-import markerHotDrink from '../../images/hot-drink.svg';
-import markerColdDrink from '../../images/cold-drink.svg';
-import markerLemonade from '../../images/lemonade.svg';
-import markerMilkshake from '../../images/milkshake.svg';
-import markerIcecream from '../../images/icecream.svg';
-import markerSupplements from '../../images/food-supplements.svg';
-import markerAlcohol from '../../images/alcohol.svg';
+import markerCake from '../../images/markers/cake.svg';
+import markerStrudel from '../../images/markers/strudel.svg';
+import markerCookies from '../../images/markers/cookies.svg';
+import markerCheesecake from '../../images/markers/cheesecake.svg';
+import markerDessert from '../../images/markers/dessert.svg';
+import markerBread from '../../images/markers/bread.svg';
+import markerCroissant from '../../images/markers/croissant.svg';
+import markerHotDrink from '../../images/markers/hot-drink.svg';
+import markerColdDrink from '../../images/markers/cold-drink.svg';
+import markerLemonade from '../../images/markers/lemonade.svg';
+import markerMilkshake from '../../images/markers/milkshake.svg';
+import markerIcecream from '../../images/markers/icecream.svg';
+import markerSupplements from '../../images/markers/food-supplements.svg';
+import markerAlcohol from '../../images/markers/alcohol.svg';
 
 export const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #feffe1;
   box-shadow: 3px 3px 9px 5px #453432;
   border-radius: 2px;
   height: 100%;
+  padding-bottom: 100px;
 `;
 export const SliderWrapper = styled.div`
   display: block;
@@ -88,6 +90,22 @@ export const ButtonText = styled.span`
 
 export const ButtonImg = styled.img`
   width: 35%;
+`;
+
+export const CoffeeImgWrapper = styled.div`
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+  background-color: #453432;
+  border: 2px solid #d8a331;
+`;
+
+export const CoffeeImg = styled.img`
+  width: 80px;
 `;
 
 export const ProductList = styled.ul`
@@ -225,9 +243,4 @@ export const SubAlcoItem = styled.li`
   list-style: url(${markerAlcohol});
   margin-bottom: 10px;
   padding-left: 10px;
-`;
-
-export const ProductText = styled.p`
-  display: flex;
-  gap: 10px;
 `;

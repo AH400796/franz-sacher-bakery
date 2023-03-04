@@ -14,9 +14,9 @@ export const Wrapper = styled.div`
 
 export const Main = styled.main`
   background-image: url(${bgMain});
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: top center;
-  background-size: cover;
+  /* background-size: ; */
   flex: 1 0 auto;
 
   padding: 20px 0;
