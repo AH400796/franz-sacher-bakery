@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import bgMain from '../../images/bg-main.webp';
+import bgMain from '../../images/bg-main.png';
 
 export const AppContent = styled.div`
   display: flex;
@@ -15,8 +15,7 @@ export const Wrapper = styled.div`
 export const Main = styled.main`
   background-image: url(${bgMain});
   background-repeat: repeat;
-  background-position: top center;
-  /* background-size: ; */
+  background-position: center;
   flex: 1 0 auto;
 
   padding: 20px 0;
