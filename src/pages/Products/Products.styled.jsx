@@ -41,18 +41,18 @@ export const Title = styled.h3`
   padding: 0 10px;
   margin-bottom: 20px;
   font-family: 'Marck Script', cursive;
-  font-size: 20px;
+  font-size: 24px;
   color: #453432;
 
   @media screen and (min-width: 480px) {
     padding: 0 20px;
     margin-bottom: 25px;
-    font-size: 24px;
+    font-size: 28px;
   }
   @media screen and (min-width: 768px) {
     padding: 0 30px;
     margin-bottom: 30px;
-    font-size: 28px;
+    font-size: 32px;
   }
 `;
 
@@ -113,12 +113,12 @@ export const ProductList = styled.ul`
   padding: 0 20px;
   margin-bottom: 10px;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   color: #453432;
 
   @media screen and (min-width: 480px) {
     padding: 0 30px;
-    font-size: 16px;
+    font-size: 18px;
   }
   @media screen and (min-width: 768px) {
     padding: 0 40px;
@@ -142,15 +142,15 @@ export const ProductListItem = styled.li`
 export const SubList = styled.ul`
   padding: 10px 10px 5px 50px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 14px;
   color: #feffe1;
   background-color: #453432;
 
   @media screen and (min-width: 480px) {
-    font-size: 14px;
+    font-size: 16px;
   }
   @media screen and (min-width: 768px) {
-    font-size: 18px;
+    font-size: 20px;
   }
 `;
 
