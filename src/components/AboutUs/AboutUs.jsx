@@ -1,4 +1,5 @@
 import {
+  Wrapper,
   AboutList,
   AboutTitle,
   AboutText,
@@ -14,7 +15,7 @@ import cokies from '../../images/cokies.webp';
 
 export default function AboutUs() {
   return (
-    <>
+    <Wrapper>
       <AboutTitle>Наша місія</AboutTitle>
       <AboutList>
         <AboutListItem>
@@ -98,6 +99,6 @@ export default function AboutUs() {
           </ItemWrappper>
         </AboutListItem>
       </AboutList>
-    </>
+    </Wrapper>
   );
 }

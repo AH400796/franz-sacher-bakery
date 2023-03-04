@@ -314,7 +314,7 @@ export default function Products({ screenWidth }) {
         </ProductListItem>
       </ProductList>
       <CoffeeImgWrapper>
-        <CoffeeImg src={coffeCup} alt="" />
+        <CoffeeImg src={coffeCup} alt="Decorative cup of coffee" />
       </CoffeeImgWrapper>
     </Wrapper>
   );

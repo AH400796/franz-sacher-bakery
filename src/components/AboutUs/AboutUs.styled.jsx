@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const Wrapper = styled.div`
+  padding: 20px 20px 120px;
+`;
+
 export const AboutList = styled.ul`
   display: flex;
   flex-direction: column;
