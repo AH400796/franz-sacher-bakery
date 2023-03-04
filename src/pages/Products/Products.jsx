@@ -4,10 +4,28 @@ import {
   Wrapper,
   Button,
   ButtonText,
+  ButtonImg,
   Title,
   ProductList,
   ProductListItem,
   ProductText,
+  SubBreadItem,
+  SubCakeItem,
+  SubDessertItem,
+  SubCoffeeItem,
+  SubColdCoffeeItem,
+  SubCroissantItem,
+  SubLemonadeItem,
+  SubMilkshakeItem,
+  SubIcecreamItem,
+  SubSupplementsItem,
+  SubCheesecakeItem,
+  SubCookiesItem,
+  SubStrudelItem,
+  SubAlcoItem,
+  SubList,
+  Details,
+  Summary,
 } from './Products.styled';
 import Slider from 'components/Slider';
 import Modal from 'components/Modal';
@@ -38,32 +56,295 @@ export default function Products({ screenWidth }) {
       )}
       <Button type="button" onClick={toggleModal}>
         <ButtonText>Галерея</ButtonText>
-        <img src={ProductsBtn} alt="" width={40} />
+        <ButtonImg src={ProductsBtn} alt="" width={40} />
       </Button>
       <Title>
-        Наша пекарня <br /> пропонує Вам:
+        Наша пекарня радо запропонує Вам широкий асортимент продукції:
       </Title>
       <ProductList>
         <ProductListItem>
-          <ProductText>Торти</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Торти</Summary>
+              <SubList>
+                <SubCakeItem>«Захер»</SubCakeItem>
+                <SubCakeItem>«Естерхазі»</SubCakeItem>
+                <SubCakeItem>«Київський»</SubCakeItem>
+                <SubCakeItem>«Корівка»</SubCakeItem>
+                <SubCakeItem>«Наполеон»</SubCakeItem>
+                <SubCakeItem>«Спартак»</SubCakeItem>
+                <SubCakeItem>«Три шоколади»</SubCakeItem>
+                <SubCakeItem>«Пташине молоко»</SubCakeItem>
+                <SubCakeItem>«Червоний оксамит»</SubCakeItem>
+                <SubCakeItem>«П`яна вишня»</SubCakeItem>
+                <SubCakeItem>«Опера»</SubCakeItem>
+                <SubCakeItem>«Мангово-персиковий»</SubCakeItem>
+                <SubCakeItem>«Маково-полуничний»</SubCakeItem>
+                <SubCakeItem>«Медовий з чорносливом»</SubCakeItem>
+                <SubCakeItem>«Шпинатний з малиною»</SubCakeItem>
+                <SubCakeItem>«Морквяний з пряною грушею»</SubCakeItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>Випічку</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Пироги та штруделі</Summary>
+              <SubList>
+                <SubStrudelItem>Штрудель «З грушею»</SubStrudelItem>
+                <SubStrudelItem>Штрудель «Вишневий»</SubStrudelItem>
+                <SubStrudelItem>Штрудель «Яблучний»</SubStrudelItem>
+                <SubStrudelItem>Пиріг «Яворівський»</SubStrudelItem>
+                <SubStrudelItem>Пиріг «З куркою»</SubStrudelItem>
+                <SubStrudelItem>
+                  Пиріг «Зі шпинатом та сиром фета»
+                </SubStrudelItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>Печиво</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Печиво та тістечка</Summary>
+              <SubList>
+                <SubCookiesItem>Печиво «Шоколадні тріщинки»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Вівсяне»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Горішки»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Мигдальне»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Пісочно-горіхове»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Поцілуночки»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Рогалик зі смородиною»</SubCookiesItem>
+                <SubCookiesItem>Печиво «Грибочки»</SubCookiesItem>
+                <SubCookiesItem>Тістечко «Ласун»</SubCookiesItem>
+                <SubCookiesItem>Тістечко «Пікова дама»</SubCookiesItem>
+                <SubCookiesItem>Пряники «Імбирні»</SubCookiesItem>
+                <SubCookiesItem>Трубочки «З заварним кремом»</SubCookiesItem>
+                <SubCookiesItem>Вафлі «Домашні»</SubCookiesItem>
+                <SubCookiesItem>Зефір «Яблучно-полуничний»</SubCookiesItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>Круасани</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Пляцки та сирники</Summary>
+              <SubList>
+                <SubCheesecakeItem>Пляцок «Медовий»</SubCheesecakeItem>
+                <SubCheesecakeItem>Пляцок «Пані Валевська»</SubCheesecakeItem>
+                <SubCheesecakeItem>Сирник «Львівський»</SubCheesecakeItem>
+                <SubCheesecakeItem>Чіз-кейк «Нью-Йорк»</SubCheesecakeItem>
+                <SubCheesecakeItem>Слойка «З яблуками»</SubCheesecakeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Десерти</Summary>
+              <SubList>
+                <SubDessertItem>Десерт «Шварцвальд»</SubDessertItem>
+                <SubDessertItem>Десерт «Тірамісу»</SubDessertItem>
+                <SubDessertItem>Десерт «Блек Джек»</SubDessertItem>
+                <SubDessertItem>Десерт «Фрезьє»</SubDessertItem>
+                <SubDessertItem>Десерт «Картоплинка»</SubDessertItem>
+                <SubDessertItem>Панакота «Імбирно-апельсинова»</SubDessertItem>
+                <SubDessertItem>Панакота «Вишнева»</SubDessertItem>
+                <SubDessertItem>Буше «Обліпихове»</SubDessertItem>
+                <SubDessertItem>Тарталетка «Лимонна»</SubDessertItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Хлібобулочні вироби</Summary>
+              <SubList>
+                <SubBreadItem>«Шварцвальд»</SubBreadItem>
+                <SubBreadItem>«Тірамісу»</SubBreadItem>
+                <SubBreadItem>«Блек Джек»</SubBreadItem>
+                <SubBreadItem>«Фрезьє»</SubBreadItem>
+                <SubBreadItem>«Картоплинка»</SubBreadItem>
+                <SubBreadItem>«Імбирно-апельсинова»</SubBreadItem>
+                <SubBreadItem>«Вишнева»</SubBreadItem>
+                <SubBreadItem>бліпихове»</SubBreadItem>
+                <SubBreadItem>тка «Лимонна»</SubBreadItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>Пиріжки</ProductText>
+          <ProductText>
+            <Details>
+              <Summary> Пиріжки та круасани</Summary>
+              <SubList>
+                <SubCroissantItem>«Шварцвальд»</SubCroissantItem>
+                <SubCroissantItem>«Тірамісу»</SubCroissantItem>
+                <SubCroissantItem>«Блек Джек»</SubCroissantItem>
+                <SubCroissantItem>«Фрезьє»</SubCroissantItem>
+                <SubCroissantItem>«Картоплинка»</SubCroissantItem>
+                <SubCroissantItem>«Імбирно-апельсинова»</SubCroissantItem>
+                <SubCroissantItem>«Вишнева»</SubCroissantItem>
+                <SubCroissantItem>бліпихове»</SubCroissantItem>
+                <SubCroissantItem>тка «Лимонна»</SubCroissantItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+      </ProductList>
+      <Title>
+        А також у нас Ви знайдете широкий перелік гарячих, холодних та
+        алкогольних напоїв:
+      </Title>
+      <ProductList>
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Гарячі напої (класичні)</Summary>
+              <SubList>
+                <SubCoffeeItem>«Еспресо»</SubCoffeeItem>
+                <SubCoffeeItem>«Американо»</SubCoffeeItem>
+                <SubCoffeeItem>«Допіо»</SubCoffeeItem>
+                <SubCoffeeItem>«Рістретто»</SubCoffeeItem>
+                <SubCoffeeItem>«Капучіно»</SubCoffeeItem>
+                <SubCoffeeItem>«Лате»</SubCoffeeItem>
+                <SubCoffeeItem>«Флет-вайт»</SubCoffeeItem>
+                <SubCoffeeItem>«Какао»</SubCoffeeItem>
+                <SubCoffeeItem>«Гарячий шоколад»</SubCoffeeItem>
+                <SubCoffeeItem>«Мокачіно»</SubCoffeeItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>Десерти</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Гарячі напої (унікальні)</Summary>
+              <SubList>
+                <SubCoffeeItem>«Кава по-віденськи»</SubCoffeeItem>
+                <SubCoffeeItem>«Кава по-ірландськи»</SubCoffeeItem>
+                <SubCoffeeItem>«Динно-карамельне капучіно»</SubCoffeeItem>
+                <SubCoffeeItem>«М`ятне капучіно»</SubCoffeeItem>
+                <SubCoffeeItem>«Лате зі смородиною»</SubCoffeeItem>
+                <SubCoffeeItem>«Раф кава»</SubCoffeeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Холодні кавові напої</Summary>
+              <SubList>
+                <SubColdCoffeeItem>«Фрапе»</SubColdCoffeeItem>
+                <SubColdCoffeeItem>«Глясе»</SubColdCoffeeItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
         <ProductListItem>
-          <ProductText>І ще багато всього</ProductText>
+          <ProductText>
+            <Details>
+              <Summary>Чай (класичний)</Summary>
+              <SubList>
+                <SubCoffeeItem>«Чорний»</SubCoffeeItem>
+                <SubCoffeeItem>«Зелений»</SubCoffeeItem>
+                <SubCoffeeItem>«Фруктовий»</SubCoffeeItem>
+                <SubCoffeeItem>«Трав'яний»</SubCoffeeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Чай (вітамінний)</Summary>
+              <SubList>
+                <SubCoffeeItem>«Журавлина з апельсином»</SubCoffeeItem>
+                <SubCoffeeItem>«Обліпиха з яблуком»</SubCoffeeItem>
+                <SubCoffeeItem>«Імбир з медом та лаймом»</SubCoffeeItem>
+                <SubCoffeeItem>«Обліпиха з чебрецем»</SubCoffeeItem>
+                <SubCoffeeItem>«Апельсин з м`ятою»</SubCoffeeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Лимонади</Summary>
+              <SubList>
+                <SubLemonadeItem>«Класичний»</SubLemonadeItem>
+                <SubLemonadeItem>«Болото»</SubLemonadeItem>
+                <SubLemonadeItem>«Тропічний»</SubLemonadeItem>
+                <SubLemonadeItem>«Мохіто алкогольний»</SubLemonadeItem>
+                <SubLemonadeItem>«Мохіто безалкогольний»</SubLemonadeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Молочні коктейлі</Summary>
+              <SubList>
+                <SubMilkshakeItem>«Класичний»</SubMilkshakeItem>
+                <SubMilkshakeItem>«Банановий»</SubMilkshakeItem>
+                <SubMilkshakeItem>«Королівський»</SubMilkshakeItem>
+                <SubMilkshakeItem>«Ягідний»</SubMilkshakeItem>
+                <SubMilkshakeItem>«Кавовий»</SubMilkshakeItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Морозиво</Summary>
+              <SubList>
+                <SubIcecreamItem>«Класичне»</SubIcecreamItem>
+                <SubIcecreamItem>«З вишнею»</SubIcecreamItem>
+                <SubIcecreamItem>
+                  «З шоколадом і грецьким горіхом»
+                </SubIcecreamItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Додатки</Summary>
+              <SubList>
+                <SubSupplementsItem>Вершки</SubSupplementsItem>
+                <SubSupplementsItem>Мед</SubSupplementsItem>
+                <SubSupplementsItem>
+                  Сироп фруктовий в асортименті
+                </SubSupplementsItem>
+                <SubSupplementsItem>Лимон</SubSupplementsItem>
+              </SubList>
+            </Details>
+          </ProductText>
+        </ProductListItem>
+        <ProductListItem>
+          <ProductText>
+            <Details>
+              <Summary>Алкогольні напої</Summary>
+              <SubList>
+                <SubAlcoItem>Бренді</SubAlcoItem>
+              </SubList>
+            </Details>
+          </ProductText>
         </ProductListItem>
       </ProductList>
     </Wrapper>

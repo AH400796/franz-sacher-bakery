@@ -1,23 +1,27 @@
 import styled from 'styled-components';
-import marker from '../../images/cake.svg';
+import markerCake from '../../images/cake.svg';
+import markerStrudel from '../../images/strudel.svg';
+import markerCookies from '../../images/cookies.svg';
+import markerCheesecake from '../../images/cheesecake.svg';
+import markerDessert from '../../images/dessert.svg';
+import markerBread from '../../images/bread.svg';
+import markerCroissant from '../../images/croissant.svg';
+import markerHotDrink from '../../images/hot-drink.svg';
+import markerColdDrink from '../../images/cold-drink.svg';
+import markerLemonade from '../../images/lemonade.svg';
+import markerMilkshake from '../../images/milkshake.svg';
+import markerIcecream from '../../images/icecream.svg';
+import markerSupplements from '../../images/food-supplements.svg';
+import markerAlcohol from '../../images/alcohol.svg';
 
 export const Wrapper = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
-
-  padding: 30px 20px 20px 20px;
-
   background-color: #feffe1;
   box-shadow: 3px 3px 9px 5px #453432;
   border-radius: 2px;
   height: 100%;
-
-  /* @media screen and (min-width: 480px) {
-    padding-left: 30px;
-  } */
 `;
-
 export const SliderWrapper = styled.div`
   display: block;
   width: ${props => {
@@ -29,17 +33,35 @@ export const SliderWrapper = styled.div`
   }
 `;
 
+export const Title = styled.h3`
+  display: inline;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+  color: #453432;
+
+  @media screen and (min-width: 480px) {
+    padding: 0 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+`;
+
 export const Button = styled.button`
-  position: absolute;
-  right: 15px;
-  top: 15px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 100px;
-  height: 80px;
-  padding: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
 
   background-color: #453432;
   box-shadow: 0px 0px 5px 2px #d8a331;
@@ -49,59 +71,163 @@ export const Button = styled.button`
   cursor: pointer;
 
   @media screen and (min-width: 480px) {
-    right: 20px;
-    top: 20px;
-    width: 160px;
-    height: 140px;
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin-bottom: 25px;
   }
 `;
 
 export const ButtonText = styled.span`
   font-family: 'Marck Script', cursive;
-  font-size: 20px;
+  font-size: inherit;
   color: #feffe1;
-
-  @media screen and (min-width: 480px) {
-    font-size: 32px;
-  }
-
-  @media screen and (min-width: 480px) {
-    font-size: 32px;
-  }
 `;
 
-export const Title = styled.h3`
-  display: inline;
-  text-align: left;
-  margin-bottom: 20px;
-  font-family: 'Marck Script', cursive;
-  font-size: 22px;
-  color: #453432;
-  @media screen and (min-width: 480px) {
-    font-size: 26px;
-  }
+export const ButtonImg = styled.img`
+  width: 35%;
 `;
 
 export const ProductList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-left: 25px;
-  list-style: url(${marker});
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  list-style: none;
   font-size: 14px;
+  color: #453432;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 480px) {
+    padding: 0 30px;
     font-size: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0 40px;
+    font-size: 20px;
   }
 `;
 
-export const ProductListItem = styled.li``;
+export const ProductListItem = styled.li`
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+  }
+`;
+
+export const SubList = styled.ul`
+  padding: 10px 10px 5px 50px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #feffe1;
+  background-color: #453432;
+
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+`;
+
+export const Details = styled.details`
+  width: 100%;
+`;
+export const Summary = styled.summary`
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-decoration: underline dotted 1px;
+`;
+
+export const SubCakeItem = styled.li`
+  list-style: url(${markerCake});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubStrudelItem = styled.li`
+  list-style: url(${markerStrudel});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubCookiesItem = styled.li`
+  list-style: url(${markerCookies});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubCheesecakeItem = styled.li`
+  list-style: url(${markerCheesecake});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubDessertItem = styled.li`
+  list-style: url(${markerDessert});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubBreadItem = styled.li`
+  list-style: url(${markerBread});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubCroissantItem = styled.li`
+  list-style: url(${markerCroissant});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubCoffeeItem = styled.li`
+  list-style: url(${markerHotDrink});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+export const SubColdCoffeeItem = styled.li`
+  list-style: url(${markerColdDrink});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+export const SubLemonadeItem = styled.li`
+  list-style: url(${markerLemonade});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubMilkshakeItem = styled.li`
+  list-style: url(${markerMilkshake});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubIcecreamItem = styled.li`
+  list-style: url(${markerIcecream});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubSupplementsItem = styled.li`
+  list-style: url(${markerSupplements});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
+
+export const SubAlcoItem = styled.li`
+  list-style: url(${markerAlcohol});
+  margin-bottom: 10px;
+  padding-left: 10px;
+`;
 
 export const ProductText = styled.p`
-  font-size: 16px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
-  }
+  display: flex;
+  gap: 10px;
 `;

@@ -24,7 +24,7 @@ export default function App() {
       <Route path="/" element={<SharedLayout screenWidth={screenWidth} />}>
         <Route index element={<About />} />
         <Route
-          path="Products"
+          path="products"
           element={<Products screenWidth={screenWidth} />}
         />
         <Route
