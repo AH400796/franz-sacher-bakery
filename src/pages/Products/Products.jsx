@@ -58,7 +58,7 @@ export default function Products({ screenWidth }) {
       )}
       <Button type="button" onClick={toggleModal}>
         <ButtonText>Галерея</ButtonText>
-        <ButtonImg src={ProductsBtn} alt="" width={40} />
+        <ButtonImg src={ProductsBtn} alt="" width="417" height="281" />
       </Button>
       <Title>
         Наша пекарня радо запропонує Вам широкий асортимент продукції:
@@ -76,6 +76,7 @@ export default function Products({ screenWidth }) {
               <SubCakeItem>«Спартак»</SubCakeItem>
               <SubCakeItem>«Три шоколади»</SubCakeItem>
               <SubCakeItem>«Пташине молоко»</SubCakeItem>
+
               <SubCakeItem>«Червоний оксамит»</SubCakeItem>
               <SubCakeItem>«П`яна вишня»</SubCakeItem>
               <SubCakeItem>«Опера»</SubCakeItem>
@@ -94,6 +95,7 @@ export default function Products({ screenWidth }) {
               <SubStrudelItem>Штрудель «З грушею»</SubStrudelItem>
               <SubStrudelItem>Штрудель «Вишневий»</SubStrudelItem>
               <SubStrudelItem>Штрудель «Яблучний»</SubStrudelItem>
+
               <SubStrudelItem>Пиріг «Яворівський»</SubStrudelItem>
               <SubStrudelItem>Пиріг «З куркою»</SubStrudelItem>
               <SubStrudelItem>Пиріг «Зі шпинатом та сиром фета»</SubStrudelItem>
@@ -111,6 +113,7 @@ export default function Products({ screenWidth }) {
               <SubCookiesItem>Печиво «Пісочно-горіхове»</SubCookiesItem>
               <SubCookiesItem>Печиво «Поцілуночки»</SubCookiesItem>
               <SubCookiesItem>Печиво «Рогалик зі смородиною»</SubCookiesItem>
+
               <SubCookiesItem>Печиво «Грибочки»</SubCookiesItem>
               <SubCookiesItem>Тістечко «Ласун»</SubCookiesItem>
               <SubCookiesItem>Тістечко «Пікова дама»</SubCookiesItem>
@@ -128,6 +131,7 @@ export default function Products({ screenWidth }) {
               <SubCheesecakeItem>Пляцок «Медовий»</SubCheesecakeItem>
               <SubCheesecakeItem>Пляцок «Пані Валевська»</SubCheesecakeItem>
               <SubCheesecakeItem>Сирник «Львівський»</SubCheesecakeItem>
+
               <SubCheesecakeItem>Чіз-кейк «Нью-Йорк»</SubCheesecakeItem>
               <SubCheesecakeItem>Слойка «З яблуками»</SubCheesecakeItem>
             </SubList>
@@ -143,6 +147,7 @@ export default function Products({ screenWidth }) {
               <SubDessertItem>Десерт «Блек Джек»</SubDessertItem>
               <SubDessertItem>Десерт «Фрезьє»</SubDessertItem>
               <SubDessertItem>Десерт «Картоплинка»</SubDessertItem>
+
               <SubDessertItem>Панакота «Імбирно-апельсинова»</SubDessertItem>
               <SubDessertItem>Панакота «Вишнева»</SubDessertItem>
               <SubDessertItem>Буше «Обліпихове»</SubDessertItem>
@@ -160,6 +165,7 @@ export default function Products({ screenWidth }) {
               <SubBreadItem>«Блек Джек»</SubBreadItem>
               <SubBreadItem>«Фрезьє»</SubBreadItem>
               <SubBreadItem>«Картоплинка»</SubBreadItem>
+
               <SubBreadItem>«Імбирно-апельсинова»</SubBreadItem>
               <SubBreadItem>«Вишнева»</SubBreadItem>
               <SubBreadItem>бліпихове»</SubBreadItem>
@@ -176,6 +182,7 @@ export default function Products({ screenWidth }) {
               <SubCroissantItem>«Блек Джек»</SubCroissantItem>
               <SubCroissantItem>«Фрезьє»</SubCroissantItem>
               <SubCroissantItem>«Картоплинка»</SubCroissantItem>
+
               <SubCroissantItem>«Імбирно-апельсинова»</SubCroissantItem>
               <SubCroissantItem>«Вишнева»</SubCroissantItem>
               <SubCroissantItem>бліпихове»</SubCroissantItem>
@@ -198,6 +205,7 @@ export default function Products({ screenWidth }) {
               <SubCoffeeItem>«Допіо»</SubCoffeeItem>
               <SubCoffeeItem>«Рістретто»</SubCoffeeItem>
               <SubCoffeeItem>«Капучіно»</SubCoffeeItem>
+
               <SubCoffeeItem>«Лате»</SubCoffeeItem>
               <SubCoffeeItem>«Флет-вайт»</SubCoffeeItem>
               <SubCoffeeItem>«Какао»</SubCoffeeItem>
@@ -213,6 +221,7 @@ export default function Products({ screenWidth }) {
               <SubCoffeeItem>«Кава по-віденськи»</SubCoffeeItem>
               <SubCoffeeItem>«Кава по-ірландськи»</SubCoffeeItem>
               <SubCoffeeItem>«Динно-карамельне капучіно»</SubCoffeeItem>
+
               <SubCoffeeItem>«М`ятне капучіно»</SubCoffeeItem>
               <SubCoffeeItem>«Лате зі смородиною»</SubCoffeeItem>
               <SubCoffeeItem>«Раф кава»</SubCoffeeItem>
@@ -225,6 +234,7 @@ export default function Products({ screenWidth }) {
             <Summary>Холодні кавові напої</Summary>
             <SubList>
               <SubColdCoffeeItem>«Фрапе»</SubColdCoffeeItem>
+
               <SubColdCoffeeItem>«Глясе»</SubColdCoffeeItem>
             </SubList>
           </Details>
@@ -235,6 +245,7 @@ export default function Products({ screenWidth }) {
             <SubList>
               <SubCoffeeItem>«Чорний»</SubCoffeeItem>
               <SubCoffeeItem>«Зелений»</SubCoffeeItem>
+
               <SubCoffeeItem>«Фруктовий»</SubCoffeeItem>
               <SubCoffeeItem>«Трав'яний»</SubCoffeeItem>
             </SubList>
@@ -248,6 +259,7 @@ export default function Products({ screenWidth }) {
               <SubCoffeeItem>«Журавлина з апельсином»</SubCoffeeItem>
               <SubCoffeeItem>«Обліпиха з яблуком»</SubCoffeeItem>
               <SubCoffeeItem>«Імбир з медом та лаймом»</SubCoffeeItem>
+
               <SubCoffeeItem>«Обліпиха з чебрецем»</SubCoffeeItem>
               <SubCoffeeItem>«Апельсин з м`ятою»</SubCoffeeItem>
             </SubList>
@@ -260,6 +272,7 @@ export default function Products({ screenWidth }) {
               <SubLemonadeItem>«Класичний»</SubLemonadeItem>
               <SubLemonadeItem>«Болото»</SubLemonadeItem>
               <SubLemonadeItem>«Тропічний»</SubLemonadeItem>
+
               <SubLemonadeItem>«Мохіто алкогольний»</SubLemonadeItem>
               <SubLemonadeItem>«Мохіто безалкогольний»</SubLemonadeItem>
             </SubList>
@@ -272,6 +285,7 @@ export default function Products({ screenWidth }) {
               <SubMilkshakeItem>«Класичний»</SubMilkshakeItem>
               <SubMilkshakeItem>«Банановий»</SubMilkshakeItem>
               <SubMilkshakeItem>«Королівський»</SubMilkshakeItem>
+
               <SubMilkshakeItem>«Ягідний»</SubMilkshakeItem>
               <SubMilkshakeItem>«Кавовий»</SubMilkshakeItem>
             </SubList>
@@ -284,19 +298,20 @@ export default function Products({ screenWidth }) {
             <SubList>
               <SubIcecreamItem>«Класичне»</SubIcecreamItem>
               <SubIcecreamItem>«З вишнею»</SubIcecreamItem>
+
               <SubIcecreamItem>
                 «З шоколадом і грецьким горіхом»
               </SubIcecreamItem>
             </SubList>
           </Details>
         </ProductListItem>
-
         <ProductListItem>
           <Details>
             <Summary>Додатки</Summary>
             <SubList>
               <SubSupplementsItem>Вершки</SubSupplementsItem>
               <SubSupplementsItem>Мед</SubSupplementsItem>
+
               <SubSupplementsItem>
                 Сироп фруктовий в асортименті
               </SubSupplementsItem>

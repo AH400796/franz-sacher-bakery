@@ -42,7 +42,7 @@ export const Title = styled.h3`
   margin-bottom: 20px;
   font-family: 'Marck Script', cursive;
   font-size: 24px;
-  color: #453432;
+  color: #db9808;
 
   @media screen and (min-width: 480px) {
     padding: 0 20px;
@@ -65,7 +65,11 @@ export const Button = styled.button`
   margin-bottom: 15px;
   font-size: 24px;
 
-  background-color: #453432;
+  background: linear-gradient(
+    274.25deg,
+    #2c201f 23.51%,
+    rgba(255, 255, 255, 0.81) 208.27%
+  );
   box-shadow: 0px 0px 5px 2px #d8a331;
   border: 2px solid #d8a331;
   border-radius: 5px;
@@ -100,7 +104,11 @@ export const CoffeeImgWrapper = styled.div`
   width: 100%;
   padding: 10px 0;
   align-items: center;
-  background-color: #453432;
+  background: linear-gradient(
+    274.25deg,
+    #453432 23.51%,
+    rgba(255, 255, 255, 0.81) 308.27%
+  );
   border: 2px solid #d8a331;
 `;
 
@@ -131,6 +139,8 @@ export const ProductListItem = styled.li`
   padding: 0 10px;
   margin-bottom: 10px;
 
+  cursor: pointer;
+
   @media screen and (min-width: 480px) {
     padding: 0 20px;
   }
@@ -140,17 +150,22 @@ export const ProductListItem = styled.li`
 `;
 
 export const SubList = styled.ul`
+  column-gap: 50px;
   padding: 10px 10px 5px 50px;
   border-radius: 20px;
   font-size: 14px;
   color: #feffe1;
   background-color: #453432;
+  cursor: auto;
 
   @media screen and (min-width: 480px) {
     font-size: 16px;
   }
   @media screen and (min-width: 768px) {
     font-size: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    column-gap: 250px;
   }
 `;
 

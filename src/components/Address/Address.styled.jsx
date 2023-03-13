@@ -37,6 +37,7 @@ export const AddressTitle = styled.h4`
   font-size: 20px;
   margin-bottom: 20px;
   padding: 5px;
+  color: #db9808;
 
   background-color: #feffe1;
 
@@ -57,12 +58,6 @@ export const AddressText = styled.p`
   border-radius: 0 20px 0 20px;
 
   box-shadow: 2px 2px 4px #be7f1f, -2px -2px 4px #ffab2b;
-
-  &:hover,
-  &:focus {
-    background-color: #d8a331;
-    color: #453432;
-  }
 
   @media screen and (min-width: 768px) {
     width: 190px;
@@ -88,7 +83,7 @@ export const Button = styled.button`
   box-shadow: 2px 2px 4px #be7f1f, -2px -2px 4px #ffab2b;
 
   &:hover,
-  &:focus {
+  &:focus-visible {
     background-color: #d8a331;
     color: #453432;
   }

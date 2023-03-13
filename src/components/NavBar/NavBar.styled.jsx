@@ -5,7 +5,6 @@ export const NavWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-right: 40px; */
   color: #fffacd;
 `;
 

@@ -48,7 +48,7 @@ export default function AboutUs() {
             </TextWrapper>
           </ItemWrappper>
           <ItemWrappper>
-            <AboutImage src={bakery} alt="Interior" />
+            <AboutImage src={bakery} alt="Interior" width="576" height="576" />
           </ItemWrappper>
         </AboutListItem>
         <AboutListItem>
@@ -73,7 +73,7 @@ export default function AboutUs() {
             </TextWrapper>
           </ItemWrappper>
           <ItemWrappper>
-            <AboutImage src={refreg} alt="Products" />
+            <AboutImage src={refreg} alt="Products" width="576" height="576" />
           </ItemWrappper>
         </AboutListItem>
         <AboutListItem>
@@ -95,7 +95,7 @@ export default function AboutUs() {
             </TextWrapper>
           </ItemWrappper>
           <ItemWrappper>
-            <AboutImage src={cokies} alt="Products" />
+            <AboutImage src={cokies} alt="Products" width="576" height="576" />
           </ItemWrappper>
         </AboutListItem>
       </AboutList>

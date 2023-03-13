@@ -9,7 +9,23 @@ export const Wrapper = styled.div`
   height: 100%;
 `;
 
-export const CoffeeImgWrapper = styled.div`
+export const CoffeeImgWrapperTop = styled.div`
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  align-items: center;
+  background: linear-gradient(
+    274.25deg,
+    #453432 23.51%,
+    rgba(69, 52, 50, 0.83) 50.89%,
+    rgba(252, 166, 0, 0.81) 308.27%
+  );
+`;
+
+export const CoffeeImgWrapperBottom = styled.div`
   position: absolute;
   bottom: 0;
   display: flex;
@@ -17,8 +33,12 @@ export const CoffeeImgWrapper = styled.div`
   width: 100%;
   padding: 10px 0;
   align-items: center;
-  background-color: #453432;
-  border: 2px solid #d8a331;
+  background: linear-gradient(
+    274.25deg,
+    #453432 23.51%,
+    rgba(69, 52, 50, 0.83) 50.89%,
+    rgba(252, 166, 0, 0.81) 308.27%
+  );
 `;
 
 export const CoffeeImg = styled.img`

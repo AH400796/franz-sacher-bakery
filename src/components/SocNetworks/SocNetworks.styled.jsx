@@ -40,6 +40,7 @@ export const NetworksTitle = styled.h4`
   font-size: 20px;
   margin-bottom: 20px;
   padding: 5px;
+  color: #db9808;
 
   background-color: #feffe1;
 

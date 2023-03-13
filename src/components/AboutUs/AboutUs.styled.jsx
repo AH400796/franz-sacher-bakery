@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
-  padding: 20px 20px 120px;
+  padding: 120px 20px;
 `;
 
 export const AboutList = styled.ul`
@@ -54,7 +54,7 @@ export const ItemWrappper = styled.div`
 
 export const AboutImage = styled.img`
   display: block;
-  object-fit: contain;
+  object-fit: cover;
 
   border-radius: 2px;
 
@@ -69,6 +69,8 @@ export const AboutTitle = styled.h2`
   text-align: center;
   font-size: 24px;
   padding-bottom: 15px;
+  color: #db9808;
+
   @media screen and (min-width: 768px) {
     font-size: 28px;
     padding-bottom: 20px;

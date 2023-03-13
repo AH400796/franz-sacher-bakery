@@ -4,7 +4,7 @@ import logo from '../../images/logo.svg';
 export default function Logo() {
   return (
     <LogoWrapper>
-      <LogoImage src={logo} alt="" width="120" heigth="120" />
+      <LogoImage src={logo} alt="Logo" width="100" heigth="132" />
     </LogoWrapper>
   );
 }
