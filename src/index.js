@@ -8,7 +8,7 @@ import { theme } from './services/theme';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/franz-sacher-bakery">
+    <BrowserRouter>
       <ThemeProvider theme={theme}>
         <App />
       </ThemeProvider>
