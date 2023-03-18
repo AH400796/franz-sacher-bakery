@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import {
   SliderWrapper,
   CoffeeImgWrapper,
@@ -76,7 +77,6 @@ export default function Products({ screenWidth }) {
               <SubCakeItem>«Спартак»</SubCakeItem>
               <SubCakeItem>«Три шоколади»</SubCakeItem>
               <SubCakeItem>«Пташине молоко»</SubCakeItem>
-
               <SubCakeItem>«Червоний оксамит»</SubCakeItem>
               <SubCakeItem>«П`яна вишня»</SubCakeItem>
               <SubCakeItem>«Опера»</SubCakeItem>
@@ -95,7 +95,6 @@ export default function Products({ screenWidth }) {
               <SubStrudelItem>Штрудель «З грушею»</SubStrudelItem>
               <SubStrudelItem>Штрудель «Вишневий»</SubStrudelItem>
               <SubStrudelItem>Штрудель «Яблучний»</SubStrudelItem>
-
               <SubStrudelItem>Пиріг «Яворівський»</SubStrudelItem>
               <SubStrudelItem>Пиріг «З куркою»</SubStrudelItem>
               <SubStrudelItem>Пиріг «Зі шпинатом та сиром фета»</SubStrudelItem>

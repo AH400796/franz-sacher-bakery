@@ -1,4 +1,16 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const animation = keyframes`
+0% {    
+    transform: rotateY(0);
+  }
+50% {
+    transform: rotateY(180deg);
+  }
+100% {
+    transform: rotateY(0);
+  }
+`;
 
 export const LogoWrapper = styled.div`
   background-color: #fffdd0;
@@ -8,6 +20,10 @@ export const LogoWrapper = styled.div`
   padding-left: 11px;
   padding-right: 11px;
   border: 3px solid #d8a331;
+
+  animation-name: ${animation};
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 
   @media screen and (min-width: 768px) {
     padding-bottom: 15px;

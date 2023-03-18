@@ -39,7 +39,7 @@ export const ItemWrappper = styled.div`
   display: block;
 
   border-radius: 2px;
-  background-color: #fffdd0;
+  background-color: #fffbb5;
   border: 1px dotted #453432;
 
   object-fit: contain;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import markerCake from '../../images/markers/cake.svg';
 import markerStrudel from '../../images/markers/strudel.svg';
 import markerCookies from '../../images/markers/cookies.svg';
@@ -13,6 +13,19 @@ import markerMilkshake from '../../images/markers/milkshake.svg';
 import markerIcecream from '../../images/markers/icecream.svg';
 import markerSupplements from '../../images/markers/food-supplements.svg';
 import markerAlcohol from '../../images/markers/alcohol.svg';
+
+const animation = keyframes`
+0% {    
+    transform: scale(1);
+  }
+50% {    
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px #d8a331;
+  }
+100% {
+    transform: scale(1);
+  }
+`;
 
 export const Wrapper = styled.div`
   position: relative;
@@ -64,6 +77,7 @@ export const Button = styled.button`
   padding: 10px;
   margin-bottom: 15px;
   font-size: 24px;
+  color: #feffe1;
 
   background: linear-gradient(
     274.25deg,
@@ -87,9 +101,14 @@ export const Button = styled.button`
 `;
 
 export const ButtonText = styled.span`
+  padding: 10px;
   font-family: 'Marck Script', cursive;
   font-size: inherit;
-  color: #feffe1;
+  color: inherit;
+  border-radius: 50%;
+  animation-name: ${animation};
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 `;
 
 export const ButtonImg = styled.img`
@@ -155,7 +174,11 @@ export const SubList = styled.ul`
   border-radius: 20px;
   font-size: 14px;
   color: #feffe1;
-  background-color: #453432;
+  background: linear-gradient(
+    274.25deg,
+    #453432 23.51%,
+    rgba(255, 255, 255, 0.81) 308.27%
+  );
   cursor: auto;
 
   @media screen and (min-width: 480px) {

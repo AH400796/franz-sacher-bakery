@@ -23,6 +23,7 @@ export const CoffeeImgWrapperTop = styled.div`
     rgba(69, 52, 50, 0.83) 50.89%,
     rgba(252, 166, 0, 0.81) 308.27%
   );
+  border: 2px solid #d8a331;
 `;
 
 export const CoffeeImgWrapperBottom = styled.div`
@@ -39,6 +40,7 @@ export const CoffeeImgWrapperBottom = styled.div`
     rgba(69, 52, 50, 0.83) 50.89%,
     rgba(252, 166, 0, 0.81) 308.27%
   );
+  border: 2px solid #d8a331;
 `;
 
 export const CoffeeImg = styled.img`
