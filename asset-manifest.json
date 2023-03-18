@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/franz-sacher-bakery/static/css/main.84126bd0.css",
-    "main.js": "/franz-sacher-bakery/static/js/main.4435ff96.js",
-    "static/js/430.6f75e441.chunk.js": "/franz-sacher-bakery/static/js/430.6f75e441.chunk.js",
+    "main.js": "/franz-sacher-bakery/static/js/main.e81da3da.js",
+    "static/js/430.418c4dbb.chunk.js": "/franz-sacher-bakery/static/js/430.418c4dbb.chunk.js",
     "static/css/779.5c580fd8.chunk.css": "/franz-sacher-bakery/static/css/779.5c580fd8.chunk.css",
-    "static/js/779.4766eefa.chunk.js": "/franz-sacher-bakery/static/js/779.4766eefa.chunk.js",
+    "static/js/779.956b911e.chunk.js": "/franz-sacher-bakery/static/js/779.956b911e.chunk.js",
     "static/js/683.5ffc5b56.chunk.js": "/franz-sacher-bakery/static/js/683.5ffc5b56.chunk.js",
     "static/js/442.f8e04b3f.chunk.js": "/franz-sacher-bakery/static/js/442.f8e04b3f.chunk.js",
     "static/js/955.91c2a11e.chunk.js": "/franz-sacher-bakery/static/js/955.91c2a11e.chunk.js",
@@ -36,16 +36,16 @@
     "static/media/bread.svg": "/franz-sacher-bakery/static/media/bread.f0eca1a8e9ff016e073f5e1e84db959a.svg",
     "static/media/cold-drink.svg": "/franz-sacher-bakery/static/media/cold-drink.12a373571add7fe9fe14db64e5b24952.svg",
     "main.84126bd0.css.map": "/franz-sacher-bakery/static/css/main.84126bd0.css.map",
-    "main.4435ff96.js.map": "/franz-sacher-bakery/static/js/main.4435ff96.js.map",
-    "430.6f75e441.chunk.js.map": "/franz-sacher-bakery/static/js/430.6f75e441.chunk.js.map",
+    "main.e81da3da.js.map": "/franz-sacher-bakery/static/js/main.e81da3da.js.map",
+    "430.418c4dbb.chunk.js.map": "/franz-sacher-bakery/static/js/430.418c4dbb.chunk.js.map",
     "779.5c580fd8.chunk.css.map": "/franz-sacher-bakery/static/css/779.5c580fd8.chunk.css.map",
-    "779.4766eefa.chunk.js.map": "/franz-sacher-bakery/static/js/779.4766eefa.chunk.js.map",
+    "779.956b911e.chunk.js.map": "/franz-sacher-bakery/static/js/779.956b911e.chunk.js.map",
     "683.5ffc5b56.chunk.js.map": "/franz-sacher-bakery/static/js/683.5ffc5b56.chunk.js.map",
     "442.f8e04b3f.chunk.js.map": "/franz-sacher-bakery/static/js/442.f8e04b3f.chunk.js.map",
     "955.91c2a11e.chunk.js.map": "/franz-sacher-bakery/static/js/955.91c2a11e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84126bd0.css",
-    "static/js/main.4435ff96.js"
+    "static/js/main.e81da3da.js"
   ]
 }
