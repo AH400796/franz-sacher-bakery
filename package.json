@@ -2,7 +2,7 @@
   "name": "franz-sacher-bakery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ah400796.github.io/franz-sacher-bakery/",
+  // "homepage": "https://ah400796.github.io/franz-sacher-bakery/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
